@@ -1,5 +1,7 @@
 # Obsidian Kanban Plugin
 
+forked from [mgmeyers/obsidian-kanban](https://github.com/mgmeyers/obsidian-kanban)
+
 Create markdown-backed Kanban boards in [Obsidian](https://obsidian.md/)
 
 - [Bugs, Issues, & Feature Requests](https://github.com/mgmeyers/obsidian-kanban/issues)
