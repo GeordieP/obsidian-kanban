@@ -699,6 +699,15 @@ button.kanban-plugin__new-item-button {
 
 .kanban-plugin__item-content-wrapper {
   background: var(--background-primary);
+
+  /* @GP: WARN: this has not been tested */
+  &:hover {
+    cursor: grab;
+  }
+
+  &:active {
+    cursor: grabbing;
+  }
 }
 
 .kanban-plugin__item-title-wrapper {
