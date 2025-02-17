@@ -675,6 +675,7 @@ button.kanban-plugin__new-item-button {
 .kanban-plugin__new-item-button:hover {
   color: var(--text-on-accent);
   background-color: var(--interactive-accent-hover);
+  cursor: pointer;
 }
 
 .kanban-plugin__drag-container > .kanban-plugin__item-wrapper .kanban-plugin__item {
@@ -699,6 +700,15 @@ button.kanban-plugin__new-item-button {
 
 .kanban-plugin__item-content-wrapper {
   background: var(--background-primary);
+
+  /* @GP: WARN: this has not been tested */
+  &:hover {
+    cursor: grab;
+  }
+
+  &:active {
+    cursor: grabbing;
+  }
 }
 
 .kanban-plugin__item-title-wrapper {
